@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+# plt é só um nome para função
+
+# Dados
+produtos = ["celular", "televisão", "tablet", "note"]
+valor = [2000, 1000, 5000, 500]
+# os valores seguem a mesma regra dos nomes
+
+# Criar o gráfico
+plt.bar(produtos , valor)
+
+# Adicionar títulos (opcional)
+plt.title("Meu Gráfico")
+plt.xlabel("Eixo X")
+plt.ylabel("Eixo Y")
+
+# Mostrar o gráfico
+plt.show()
+
+# ele gera um grafico, fora do VS code.
